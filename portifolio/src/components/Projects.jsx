@@ -30,6 +30,7 @@ export default function Projects() {
                 rel="noreferrer"
               >
                 {t.projects.viewProject} →
+                <span className="card__overlay" aria-hidden="true" />
               </a>
             </article>
           ))}

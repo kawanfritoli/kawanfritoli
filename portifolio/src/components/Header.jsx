@@ -22,7 +22,7 @@ export default function Header() {
     <header className="header">
       <div className="container header__inner">
         <a className="header__logo" href="#top">
-          KF<span aria-hidden="true">.</span>
+          KF<span aria-hidden="true"></span>
         </a>
 
         <nav
