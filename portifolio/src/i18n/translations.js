@@ -96,7 +96,7 @@ export const translations = {
     contact: {
       title: 'Contato',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Disponível para oportunidades e colaborações.',
+        'Gostou do meu trabalho? Estou disponível para contato através das redes abaixo:',
       emailLabel: 'E-mail',
       email: 'kfritoligomes@gmail.com',
       links: [
@@ -204,7 +204,7 @@ export const translations = {
     contact: {
       title: 'Contact',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Available for opportunities and collaborations.',
+        'Did you like my work? You can get in touch via the channels below:',
       emailLabel: 'Email',
       email: 'kfritoligomes@gmail.com',
       links: [
