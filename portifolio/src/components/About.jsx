@@ -4,7 +4,7 @@ export default function About() {
   const { t } = useAppSettings()
 
   return (
-    <section id="about" className="section">
+    <section id="about" className="section section--alt">
       <div className="container">
         <h2 className="section__title">{t.about.title}</h2>
         <div className="about__grid">

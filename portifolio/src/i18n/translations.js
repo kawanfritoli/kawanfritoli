@@ -18,7 +18,7 @@ export const translations = {
       role: 'Desenvolvedor de Software',
       headline: 'Kawan Fritoli',
       subtitle: LOREM,
-      cta: 'Ver projetos',
+      cta: 'Sobre mim',
       ctaSecondary: 'Entrar em contato',
     },
     about: {
@@ -61,12 +61,6 @@ export const translations = {
             'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
           tags: ['HTML', 'CSS', 'Suporte técnico'],
         },
-      ],
-      goalsTitle: 'Objetivos de evolução',
-      goals: [
-        'Aprofundar arquitetura front-end e testes automatizados.',
-        'Consolidar conhecimentos em back-end e bancos de dados.',
-        'Aplicar IA e automação em processos corporativos.',
       ],
     },
     projects: {
@@ -139,7 +133,7 @@ export const translations = {
       role: 'Software Developer',
       headline: 'Kawan Fritoli',
       subtitle: LOREM,
-      cta: 'View projects',
+      cta: 'About me',
       ctaSecondary: 'Get in touch',
     },
     about: {
@@ -182,12 +176,6 @@ export const translations = {
             'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
           tags: ['HTML', 'CSS', 'Technical support'],
         },
-      ],
-      goalsTitle: 'Growth goals',
-      goals: [
-        'Deepen front-end architecture and automated testing.',
-        'Strengthen back-end and database knowledge.',
-        'Apply AI and automation to corporate processes.',
       ],
     },
     projects: {

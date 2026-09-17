@@ -12,9 +12,9 @@ export default function Header() {
   }, [])
 
   const links = [
+    { href: '#projects', label: t.nav.projects },
     { href: '#about', label: t.nav.about },
     { href: '#experience', label: t.nav.experience },
-    { href: '#projects', label: t.nav.projects },
     { href: '#contact', label: t.nav.contact },
   ]
 

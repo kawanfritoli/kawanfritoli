@@ -4,7 +4,7 @@ export default function Experience() {
   const { t } = useAppSettings()
 
   return (
-    <section id="experience" className="section section--alt">
+    <section id="experience" className="section">
       <div className="container">
         <h2 className="section__title">{t.experience.title}</h2>
         <p className="section__description">{t.experience.description}</p>
@@ -28,15 +28,6 @@ export default function Experience() {
             </li>
           ))}
         </ol>
-
-        <div className="goals">
-          <h3 className="goals__title">{t.experience.goalsTitle}</h3>
-          <ul className="goals__list">
-            {t.experience.goals.map((goal) => (
-              <li key={goal}>{goal}</li>
-            ))}
-          </ul>
-        </div>
       </div>
     </section>
   )

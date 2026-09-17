@@ -10,7 +10,7 @@ export default function Hero() {
         <h1 className="hero__title">{t.hero.headline}</h1>
         <p className="hero__subtitle">{t.hero.subtitle}</p>
         <div className="hero__actions">
-          <a className="button button--primary" href="#projects">
+          <a className="button button--primary" href="#about">
             {t.hero.cta}
           </a>
           <a className="button" href="#contact">

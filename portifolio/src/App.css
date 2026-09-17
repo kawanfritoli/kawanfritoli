@@ -116,12 +116,13 @@
 }
 
 .hero__inner {
-  max-width: 780px;
+  text-align: left;
 }
 
 .hero__title {
   font-size: clamp(2.5rem, 8vw, 4.5rem);
   margin: 12px 0 20px;
+  max-width: 14ch;
 }
 
 .hero__subtitle {
@@ -250,36 +251,6 @@
   padding: 4px 10px;
   border: 1px solid var(--border);
   color: var(--fg-muted);
-}
-
-.goals {
-  margin-top: 56px;
-}
-
-.goals__title {
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  margin-bottom: 20px;
-}
-
-.goals__list {
-  display: grid;
-  gap: 12px;
-  max-width: 65ch;
-  color: var(--fg-muted);
-}
-
-.goals__list li {
-  padding-left: 22px;
-  position: relative;
-}
-
-.goals__list li::before {
-  content: '—';
-  position: absolute;
-  left: 0;
-  color: var(--fg);
 }
 
 /* ---------- Projects ---------- */
