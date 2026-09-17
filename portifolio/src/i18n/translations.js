@@ -29,14 +29,14 @@ export const translations = {
         'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis.',
       ],
       highlights: [
-        { label: 'Formação', value: 'Análise e Desenvolvimento de Sistemas' },
-        { label: 'Foco atual', value: 'Front-end e integrações' },
+        { label: 'Formação', value: 'Análise e Desenvolvimento de Sistemas - São Paulo Tech School' },
+        { label: 'Foco atual', value: 'Full Stack Develop & DevOps' },
         { label: 'Localização', value: 'Brasil — São Paulo' },
       ],
     },
     experience: {
       title: 'Experiência',
-      description: LOREM,
+      description: 'Confira abaixo um pouco da minha trajetória profissional',
       items: [
         {
           period: '2026 — Atual',
@@ -136,14 +136,14 @@ export const translations = {
         'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis.',
       ],
       highlights: [
-        { label: 'Education', value: 'Systems Analysis and Development' },
-        { label: 'Current focus', value: 'Front-end and integrations' },
+        { label: 'Education', value: 'Systems Analysis and Development - São Paulo Tech School' },
+        { label: 'Current focus', value: 'Full Stack Development & DevOps' },
         { label: 'Location', value: 'Brazil — São Paulo' },
       ],
     },
     experience: {
       title: 'Experience',
-      description: LOREM,
+      description: 'Check out a bit of my professional journey below',
       items: [
         {
           period: '2026 — Present',
