@@ -39,27 +39,19 @@ export const translations = {
       description: LOREM,
       items: [
         {
-          period: '2024 — Atual',
-          role: 'Desenvolvedor de Software',
-          company: 'Lorem Ipsum Tech',
-          description: LOREM,
-          tags: ['React', 'TypeScript', 'APIs REST'],
-        },
-        {
-          period: '2023 — 2024',
-          role: 'Desenvolvedor Júnior',
-          company: 'Dolor Sit Systems',
-          description:
-            'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-          tags: ['JavaScript', 'SQL', 'Git'],
-        },
-        {
-          period: '2022 — 2023',
+          period: '2026 — Atual',
           role: 'Estágio em Desenvolvimento',
-          company: 'Amet Consectetur',
+          company: 'Semantix',
+          description: 'Atualmente, sigo no desenvolvimento full-stack do MySeat, atuando na criação de interfaces, APIs, banco de dados e garantia de qualidade. Com a aquisição da operação pela Semantix, expandi minhas responsabilidades para a área de DevOps, assumindo também o gerenciamento e a sustentação de toda a infraestrutura da aplicação.',
+          tags: ['Angular', 'NestJS', 'PostgreSQL', 'Git', 'Docker', 'Kubernetes', 'Azure'],
+        },
+        {
+          period: '2025 — 2026',
+          role: 'Estagiário em Desenvolvimento',
+          company: 'Atos',
           description:
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-          tags: ['HTML', 'CSS', 'Suporte técnico'],
+            'Atuei no desenvolvimento full-stack do MySeat, um sistema corporativo de reserva de mesas. Fui responsável de ponta a ponta pela criação de interfaces, APIs REST e banco de dados, além de garantir a qualidade do produto através de testes automatizados e code reviews.',
+          tags: ['Angular', 'NestJS', 'PostgreSQL', 'Git', 'Docker', 'Kubernetes', 'Azure'],
         },
       ],
     },
@@ -154,27 +146,20 @@ export const translations = {
       description: LOREM,
       items: [
         {
-          period: '2024 — Present',
-          role: 'Software Developer',
-          company: 'Lorem Ipsum Tech',
-          description: LOREM,
-          tags: ['React', 'TypeScript', 'REST APIs'],
-        },
-        {
-          period: '2023 — 2024',
-          role: 'Junior Developer',
-          company: 'Dolor Sit Systems',
-          description:
-            'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-          tags: ['JavaScript', 'SQL', 'Git'],
-        },
-        {
-          period: '2022 — 2023',
+          period: '2026 — Present',
           role: 'Development Intern',
-          company: 'Amet Consectetur',
+          company: 'Semantix',
           description:
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-          tags: ['HTML', 'CSS', 'Technical support'],
+            'I continue working on the full-stack development of MySeat, building interfaces, APIs, databases and ensuring quality assurance. After the operation was acquired by Semantix, I expanded my responsibilities into DevOps, also taking over the management and maintenance of the entire application infrastructure.',
+          tags: ['Angular', 'NestJS', 'PostgreSQL', 'Git', 'Docker', 'Kubernetes', 'Azure'],
+        },
+        {
+          period: '2025 — 2026',
+          role: 'Development Intern',
+          company: 'Atos',
+          description:
+            'I worked on the full-stack development of MySeat, a corporate desk booking system. I was responsible end to end for building interfaces, REST APIs and databases, as well as ensuring product quality through automated tests and code reviews.',
+          tags: ['Angular', 'NestJS', 'PostgreSQL', 'Git', 'Docker', 'Kubernetes', 'Azure'],
         },
       ],
     },
