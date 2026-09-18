@@ -36,7 +36,7 @@ export const translations = {
       title: 'Sobre mim',
       paragraphs: [
         `Sou nascido e criado em São Paulo, tenho ${AGE} anos e em 2024 decidi que queria fazer parte do mercado de tecnologia. Ingressei no curso de ADS pela São Paulo Tech School e desde então já estagiei em duas grandes empresas do ramo. A cada dia aprendo algo novo e pra mim o céu é o limite.`,
-        'Pessoalmente sou fanático pelo Corinthians, adoro filmes de comédia e videogames. Sou um pouco eclético ouvindo música e gosto bastante de testar receitas malucas na internet.',
+        'Pessoalmente sou um devoto torcedor do Corinthians, adoro filmes de comédia e videogames. Sou um pouco eclético ouvindo música e gosto bastante de testar receitas malucas na internet.',
       ],
       highlights: [
         { label: 'Formação', value: 'Análise e Desenvolvimento de Sistemas - São Paulo Tech School' },
@@ -142,7 +142,7 @@ export const translations = {
       title: 'About me',
       paragraphs: [
         `I was born and raised in São Paulo, I am ${AGE} years old and in 2024 I decided that I wanted to be part of the technology market. I joined the ADS course at São Paulo Tech School and since then I have already interned at two major companies in the field. Every day I learn something new and for me the sky is the limit.`,
-        'Personally, I am a fanatical Corinthians fan, I love comedy movies and video games. I am a bit eclectic when it comes to music and I really enjoy trying out crazy recipes I find on the internet.',
+        'Personally, I am a devoted Corinthians fan, I love comedy movies and video games. I am a bit eclectic when it comes to music and I really enjoy trying out crazy recipes I find on the internet.',
       ],
       highlights: [
         { label: 'Education', value: 'Systems Analysis and Development - São Paulo Tech School' },
