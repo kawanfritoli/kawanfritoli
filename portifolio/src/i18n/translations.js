@@ -17,7 +17,7 @@ export const translations = {
     hero: {
       role: 'Desenvolvedor de Software',
       headline: 'Kawan Fritoli',
-      subtitle: LOREM,
+      subtitle: 'Desenvolvedor de software e corinthiano nos tempos livres, moro em São Paulo e estou iniciando minha carreira em tecnologia como estagiário na Semantix',
       cta: 'Sobre mim',
       ctaSecondary: 'Entrar em contato',
     },
@@ -124,7 +124,7 @@ export const translations = {
     hero: {
       role: 'Software Developer',
       headline: 'Kawan Fritoli',
-      subtitle: LOREM,
+      subtitle: 'Software developer and Corinthians fan in my spare time; I live in São Paulo and am starting my career in technology as an intern at Semantix.',
       cta: 'About me',
       ctaSecondary: 'Get in touch',
     },
