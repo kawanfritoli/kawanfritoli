@@ -40,7 +40,7 @@ export const translations = {
       items: [
         {
           period: '2026 — Atual',
-          role: 'Estágio em Desenvolvimento',
+          role: 'Estágiário em Desenvolvimento',
           company: 'Semantix',
           description: 'Atualmente, sigo no desenvolvimento full-stack do MySeat, atuando na criação de interfaces, APIs, banco de dados e garantia de qualidade. Com a aquisição da operação pela Semantix, expandi minhas responsabilidades para a área de DevOps, assumindo também o gerenciamento e a sustentação de toda a infraestrutura da aplicação.',
           tags: ['Angular', 'NestJS', 'PostgreSQL', 'Git', 'Docker', 'Kubernetes', 'Azure'],
