@@ -317,6 +317,56 @@
   z-index: 1;
 }
 
+/* ---------- Em construção ---------- */
+
+.wip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 56px 24px;
+  border: 1px solid var(--border);
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--bg-alt) 0 12px,
+    transparent 12px 24px
+  );
+}
+
+.wip__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  color: var(--fg);
+}
+
+.wip__icons svg {
+  width: 40px;
+  height: 40px;
+}
+
+.wip__badge {
+  margin-top: 24px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  padding: 5px 12px;
+  border: 1px solid var(--fg);
+}
+
+.wip__title {
+  font-size: 1.35rem;
+  margin: 16px 0 12px;
+}
+
+.wip__description {
+  max-width: 55ch;
+  color: var(--fg-muted);
+  margin-bottom: 28px;
+}
+
 /* ---------- Contact ---------- */
 
 .contact__email {
