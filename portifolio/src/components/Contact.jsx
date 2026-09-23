@@ -1,7 +1,8 @@
 import { useAppSettings } from '../context/AppSettingsContext.js'
 
 export default function Contact() {
-  const { t } = useAppSettings()
+  const { language, t } = useAppSettings()
+  const resumeFile = language === 'pt' ? 'curriculo-kawan-fritoli-pt.pdf' : 'curriculo-kawan-fritoli-en.pdf'
 
   return (
     <section id="contact" className="section section--alt">
@@ -14,6 +15,11 @@ export default function Contact() {
         </a>
 
         <ul className="contact__links">
+          <li>
+            <a href={`/${resumeFile}`} download>
+              {t.contact.resume}
+            </a>
+          </li>
           {t.contact.links.map((link) => (
             <li key={link.label}>
               <a href={link.href} target="_blank" rel="noreferrer">

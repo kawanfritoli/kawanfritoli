@@ -109,6 +109,7 @@ export const translations = {
         'Gostou do meu trabalho? Estou disponível para contato através das redes abaixo:',
       emailLabel: 'E-mail',
       email: 'kfritoligomes@gmail.com',
+      resume: 'Baixar currículo',
       links: [
         { label: 'GitHub', href: 'https://github.com/kawanfritoli' },
         { label: 'LinkedIn', href: 'https://www.linkedin.com/in/kawan-fritoli/' },
@@ -216,6 +217,7 @@ export const translations = {
         'Did you like my work? You can get in touch via the channels below:',
       emailLabel: 'Email',
       email: 'kfritoligomes@gmail.com',
+      resume: 'Download resume',
       links: [
         { label: 'GitHub', href: 'https://github.com/kawanfritoli' },
         { label: 'LinkedIn', href: 'https://www.linkedin.com/in/kawan-fritoli/' },
