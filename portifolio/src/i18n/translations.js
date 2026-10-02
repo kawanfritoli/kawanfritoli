@@ -72,6 +72,15 @@ export const translations = {
       viewProject: 'Ver projeto',
       items: [
         {
+          title: 'AeroData',
+          challenge: 'Projeto acadêmico — SPTech',
+          description:
+            'Projeto em grupo na SPTech que usa dados da ANAC sobre atrasos e cancelamentos de voos para apoiar decisões estratégicas de companhias aéreas. Inclui processo ETL em Java que lê planilhas do AWS S3 e grava no MySQL, dashboard com KPIs, site institucional e notificações via Slack, tudo em containers Docker numa instância EC2.',
+          tags: ['Java', 'Node.js', 'MySQL', 'AWS', 'Docker'],
+          href: 'https://github.com/AeroData01/Projeto-AeroData',
+          image: '/projects/aerodata.png',
+        },
+        {
           title: 'Moum Soya',
           challenge: 'Projeto acadêmico — SPTech',
           description:
@@ -158,6 +167,15 @@ export const translations = {
         'Some of the key projects and solutions I have developed so far:',
       viewProject: 'View project',
       items: [
+        {
+          title: 'AeroData',
+          challenge: 'Academic project — SPTech',
+          description:
+            "Group project at SPTech that uses ANAC data on flight delays and cancellations to support airlines' strategic decisions. Includes a Java ETL process that reads spreadsheets from AWS S3 into MySQL, a KPI dashboard, an institutional website and Slack notifications, all running in Docker containers on an EC2 instance.",
+          tags: ['Java', 'Node.js', 'MySQL', 'AWS', 'Docker'],
+          href: 'https://github.com/AeroData01/Projeto-AeroData',
+          image: '/projects/aerodata.png',
+        },
         {
           title: 'Moum Soya',
           challenge: 'Academic project — SPTech',
