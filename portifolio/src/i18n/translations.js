@@ -70,37 +70,16 @@ export const translations = {
       description:
         'Alguns dos principais projetos e soluções que desenvolvi até aqui:',
       viewProject: 'Ver projeto',
-      wip: {
-        badge: 'Em construção',
-        title: 'Esta seção está em obras',
-        description:
-          'Estou finalizando os detalhes dos projetos antes de publicá-los. Em breve estarão disponíveis aqui.',
-        cta: 'Ver meu GitHub',
-      },
       items: [
-        // {
-        //   title: 'Arquitetura Front-end React / Ionic',
-        //   challenge: 'Desafio técnico',
-        //   description: LOREM,
-        //   tags: ['React', 'Ionic', 'Design System'],
-        //   href: 'https://github.com/kawanfritoli',
-        // },
-        // {
-        //   title: 'Automação de Documentos com IA',
-        //   challenge: 'Desafio técnico',
-        //   description:
-        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Automação de geração e validação de documentos corporativos com modelos de linguagem.',
-        //   tags: ['Python', 'LLM', 'Automação'],
-        //   href: 'https://github.com/kawanfritoli',
-        // },
-        // {
-        //   title: 'IoT com Arduino e Banco de Dados',
-        //   challenge: 'Desafio técnico',
-        //   description:
-        //     'Sed do eiusmod tempor incididunt ut labore. Coleta de dados de sensores, persistência e visualização em painel web.',
-        //   tags: ['Arduino', 'IoT', 'MySQL'],
-        //   href: 'https://github.com/kawanfritoli',
-        // },
+        {
+          title: 'Moum Soya',
+          challenge: 'Projeto acadêmico — SPTech',
+          description:
+            'Projeto em grupo do 1º semestre na SPTech: monitoramento da umidade do ar em plantações de soja com Arduino e sensor DHT11, para prevenir a ferrugem asiática. Inclui site institucional, dashboard com dados dos talhões em tempo real e simulador financeiro.',
+          tags: ['HTML', 'CSS', 'JavaScript', 'Arduino', 'MySQL', 'Node.js', 'IoT'],
+          href: 'https://github.com/ThGalvaon/Moum-Soya',
+          image: '/projects/moum-soya.png',
+        },
       ],
     },
     contact: {
@@ -178,37 +157,16 @@ export const translations = {
       description:
         'Some of the key projects and solutions I have developed so far:',
       viewProject: 'View project',
-      wip: {
-        badge: 'Under construction',
-        title: 'This section is under construction',
-        description:
-          'I am finalizing the project details before publishing them. They will be available here soon.',
-        cta: 'Visit my GitHub',
-      },
       items: [
-        // {
-        //   title: 'React / Ionic Front-end Architecture',
-        //   challenge: 'Technical challenge',
-        //   description: LOREM,
-        //   tags: ['React', 'Ionic', 'Design System'],
-        //   href: 'https://github.com/kawanfritoli',
-        // },
-        // {
-        //   title: 'AI-Powered Document Automation',
-        //   challenge: 'Technical challenge',
-        //   description:
-        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Automated generation and validation of corporate documents using language models.',
-        //   tags: ['Python', 'LLM', 'Automation'],
-        //   href: 'https://github.com/kawanfritoli',
-        // },
-        // {
-        //   title: 'IoT with Arduino and Database',
-        //   challenge: 'Technical challenge',
-        //   description:
-        //     'Sed do eiusmod tempor incididunt ut labore. Sensor data collection, persistence and visualization in a web dashboard.',
-        //   tags: ['Arduino', 'IoT', 'MySQL'],
-        //   href: 'https://github.com/kawanfritoli',
-        // },
+        {
+          title: 'Moum Soya',
+          challenge: 'Academic project — SPTech',
+          description:
+            'First-semester group project at SPTech: air humidity monitoring for soybean crops using Arduino and a DHT11 sensor to prevent Asian soybean rust. Includes an institutional website, a real-time field dashboard and a financial simulator.',
+          tags: ['HTML', 'CSS', 'JavaScript', 'Arduino', 'MySQL', 'Node.js', 'IoT'],
+          href: 'https://github.com/ThGalvaon/Moum-Soya',
+          image: '/projects/moum-soya.png',
+        },
       ],
     },
     contact: {
