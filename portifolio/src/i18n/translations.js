@@ -72,6 +72,18 @@ export const translations = {
       viewProject: 'Ver projeto',
       items: [
         {
+          title: 'Jupiter Frito',
+          challenge: 'Projeto acadêmico — SPTech',
+          description:
+            'Sistema completo para um estúdio de tatuagem, desenvolvido em grupo na SPTech: portfólio online, agendamento de clientes, orçamentos, controle de estoque e área administrativa com dashboard. Front-end em React e API REST em Java com Spring Boot, com autenticação JWT e envio de e-mails.',
+          tags: ['React', 'Java', 'Spring Boot', 'MySQL', 'Docker', 'JWT', 'Firebase', 'GitHub Actions'],
+          links: [
+            { label: 'Front-end', href: 'https://github.com/rayragalvao/Studio-Tattoo' },
+            { label: 'Back-end', href: 'https://github.com/rayragalvao/Studio-Tattoo-Backend' },
+          ],
+          image: '/projects/jupiter-frito.png',
+        },
+        {
           title: 'AeroData',
           challenge: 'Projeto acadêmico — SPTech',
           description:
@@ -167,6 +179,18 @@ export const translations = {
         'Some of the key projects and solutions I have developed so far:',
       viewProject: 'View project',
       items: [
+        {
+          title: 'Jupiter Frito',
+          challenge: 'Academic project — SPTech',
+          description:
+            'Full system for a tattoo studio, built as a group project at SPTech: online portfolio, client scheduling, quotes, inventory control and an admin area with a dashboard. React front-end and a Java Spring Boot REST API with JWT authentication and email notifications.',
+          tags: ['React', 'Java', 'Spring Boot', 'MySQL', 'Docker', 'JWT', 'Firebase', 'GitHub Actions'],
+          links: [
+            { label: 'Front-end', href: 'https://github.com/rayragalvao/Studio-Tattoo' },
+            { label: 'Back-end', href: 'https://github.com/rayragalvao/Studio-Tattoo-Backend' },
+          ],
+          image: '/projects/jupiter-frito.png',
+        },
         {
           title: 'AeroData',
           challenge: 'Academic project — SPTech',

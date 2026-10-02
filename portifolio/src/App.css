@@ -311,12 +311,22 @@
   flex-grow: 1;
 }
 
-.card__link {
+.card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
   margin-top: 20px;
+}
+
+.card__link {
   font-size: 0.85rem;
   font-weight: 500;
   border-bottom: 1px solid var(--fg);
-  align-self: flex-start;
+}
+
+.card__link--secondary {
+  position: relative;
+  z-index: 1;
 }
 
 .card__overlay {
