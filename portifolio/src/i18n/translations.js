@@ -35,8 +35,10 @@ export const translations = {
     about: {
       title: 'Sobre mim',
       paragraphs: [
-        `Sou nascido e criado em São Paulo, tenho ${AGE} anos e em 2024 decidi que queria fazer parte do mercado de tecnologia. Ingressei no curso de ADS pela São Paulo Tech School e desde então já estagiei em duas grandes empresas do ramo. A cada dia aprendo algo novo e pra mim o céu é o limite.`,
-        'Pessoalmente sou um devoto torcedor do Corinthians, adoro filmes de comédia e videogames. Sou um pouco eclético ouvindo música e gosto bastante de testar receitas malucas na internet.',
+        'É muito difícil falar sobre si mesmo sem um olhar enviesado, ou sentir receio de se expor demais. Por isso, decidi deixar que as pessoas próximas a mim dissessem quem é o Kawan Fritoli.',
+        'Se tivessem que me resumir em uma única palavra, seria "calmo". Meus amigos me conhecem como uma pessoa tranquila, que faz as coisas no seu próprio tempo e não se deixa paralisar pelo medo de julgamentos. Embora eu não seja o mais extrovertido do grupo, sou bastante sociável e, com meu jeito bem-humorado, acabo assumindo um papel de "alívio cômico" entre os amigos.',
+        'Nas relações pessoais, prezo muito pela lealdade. Sou visto como alguém cuidadoso e verdadeiro. Fora da rotina de trabalho e estudos, gosto de aproveitar meu tempo livre com videogames, acompanhando esportes — especialmente como um corinthiano roxo — ou ouvindo música. Apesar de gostar muito de jogar, passo longe de ser excessivamente competitivo, afinal o importante não é vencer, mas a experiência.',
+        'Tenho um perfil mais cauteloso em relação a tomada de decisões. Posso ter meu próprio ritmo e preferir o que já conheço, mas sou determinado quando defino um objetivo. Essa mesma tranquilidade que me define na vida pessoal é a ferramenta que utilizo para manter o foco, buscar novos desafios e me impulsionar, aos poucos, para fora da minha zona de conforto.'
       ],
       highlights: [
         { label: 'Formação', value: 'Análise e Desenvolvimento de Sistemas - São Paulo Tech School' },
