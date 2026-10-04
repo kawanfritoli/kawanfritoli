@@ -1,17 +1,3 @@
-const BIRTH_DATE = new Date(2003, 6, 3)
-
-function getAge() {
-  const today = new Date()
-  let age = today.getFullYear() - BIRTH_DATE.getFullYear()
-  const monthDiff = today.getMonth() - BIRTH_DATE.getMonth()
-  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < BIRTH_DATE.getDate())) {
-    age -= 1
-  }
-  return age
-}
-
-const AGE = getAge()
-
 export const translations = {
   pt: {
     nav: {
@@ -40,8 +26,23 @@ export const translations = {
         'Nas relações pessoais, prezo muito pela lealdade. Sou visto como alguém cuidadoso e verdadeiro. Fora da rotina de trabalho e estudos, gosto de aproveitar meu tempo livre com videogames, acompanhando esportes — especialmente como um corinthiano roxo — ou ouvindo música. Apesar de gostar muito de jogar, passo longe de ser excessivamente competitivo, afinal o importante não é vencer, mas a experiência.',
         'Tenho um perfil mais cauteloso em relação a tomada de decisões. Posso ter meu próprio ritmo e preferir o que já conheço, mas sou determinado quando defino um objetivo. Essa mesma tranquilidade que me define na vida pessoal é a ferramenta que utilizo para manter o foco, buscar novos desafios e me impulsionar, aos poucos, para fora da minha zona de conforto.'
       ],
+      // Para adicionar um novo curso, basta incluir outro objeto na lista "items".
+      education: {
+        title: 'Formação',
+        items: [
+          {
+            course: 'Análise e Desenvolvimento de Sistemas',
+            institution: 'São Paulo Tech School',
+            period: '2024 — Atual',
+          },
+          {
+            course: 'Informática / Ensino Médio',
+            institution: 'ETEC Professor Horácio Augusto da Silveira',
+            period: '2018 — 2020',
+          }
+        ],
+      },
       highlights: [
-        { label: 'Formação', value: 'Análise e Desenvolvimento de Sistemas - São Paulo Tech School' },
         { label: 'Foco atual', value: 'Full Stack Develop & DevOps' },
         { label: 'Localização', value: 'Brasil — São Paulo' },
       ],
@@ -144,11 +145,28 @@ export const translations = {
     about: {
       title: 'About me',
       paragraphs: [
-        `I was born and raised in São Paulo, I am ${AGE} years old and in 2024 I decided that I wanted to be part of the technology market. I joined the ADS course at São Paulo Tech School and since then I have already interned at two major companies in the field. Every day I learn something new and for me the sky is the limit.`,
-        'Personally, I am a devoted Corinthians fan, I love comedy movies and video games. I am a bit eclectic when it comes to music and I really enjoy trying out crazy recipes I find on the internet.',
+        'It is very hard to talk about yourself without a biased view, or without worrying about exposing too much. That is why I decided to let the people closest to me say who Kawan Fritoli is.',
+        'If they had to sum me up in a single word, it would be "calm". My friends know me as a laid-back person who does things in his own time and does not let the fear of judgment hold him back. Although I am not the most outgoing one in the group, I am quite sociable and, with my good sense of humor, I end up playing the role of "comic relief" among my friends.',
+        'In personal relationships, I truly value loyalty. I am seen as someone caring and genuine. Outside of work and studies, I like to spend my free time playing video games, following sports — especially as a die-hard Corinthians fan — or listening to music. Even though I really enjoy gaming, I am far from being overly competitive; after all, what matters is not winning, but the experience.',
+        'I tend to be more cautious when it comes to making decisions. I may have my own pace and prefer what I already know, but I am determined once I set a goal. The same calmness that defines me in my personal life is the tool I use to stay focused, seek new challenges and push myself, little by little, out of my comfort zone.',
       ],
+      // To add a new course, just include another object in the "items" list.
+      education: {
+        title: 'Education',
+        items: [
+          {
+            course: 'Systems Analysis and Development',
+            institution: 'São Paulo Tech School',
+            period: '2024 — Present',
+          },
+          {
+            course: 'Informatics / High School',
+            institution: 'ETEC Professor Horácio Augusto da Silveira',
+            period: '2018 — 2020',
+          },
+        ],
+      },
       highlights: [
-        { label: 'Education', value: 'Systems Analysis and Development - São Paulo Tech School' },
         { label: 'Current focus', value: 'Full Stack Development & DevOps' },
         { label: 'Location', value: 'Brazil — São Paulo' },
       ],

@@ -191,12 +191,66 @@
   max-width: 65ch;
 }
 
+.about__aside {
+  display: grid;
+  gap: 32px;
+  align-content: start;
+  border-left: 1px solid var(--border);
+  padding-left: 24px;
+}
+
+.education {
+  padding: 20px;
+  border: 1px solid var(--border);
+  background-color: var(--bg);
+}
+
+.education__title {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--fg-muted);
+  margin-bottom: 4px;
+}
+
+.education__list {
+  display: grid;
+}
+
+.education__item {
+  display: grid;
+  gap: 2px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.education__item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.education__period {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+
+.education__course {
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.education__institution {
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+}
+
 .about__highlights {
   display: grid;
   gap: 20px;
   align-content: start;
-  border-left: 1px solid var(--border);
-  padding-left: 24px;
 }
 
 .about__highlight dt {
@@ -402,7 +456,7 @@
     gap: 32px;
   }
 
-  .about__highlights {
+  .about__aside {
     border-left: none;
     border-top: 1px solid var(--border);
     padding-left: 0;
