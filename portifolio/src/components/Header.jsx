@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useAppSettings } from '../context/AppSettingsContext.js'
+import Link from '../router/Link.jsx'
 
 export default function Header() {
   const { t, theme, language, toggleTheme, toggleLanguage } = useAppSettings()
@@ -14,34 +15,32 @@ export default function Header() {
   }, [])
 
   const links = [
-    { href: '#projects', label: t.nav.projects },
-    { href: '#about', label: t.nav.about },
-    { href: '#experience', label: t.nav.experience },
-    { href: '#contact', label: t.nav.contact },
-    { href: `/${resumeFile}`, label: t.nav.resume, download: true },
+    { href: '/#projects', label: t.nav.projects },
+    { href: '/#about', label: t.nav.about },
+    { href: '/#experience', label: t.nav.experience },
+    { href: '/#contact', label: t.nav.contact },
   ]
+  const resumeLink = { href: `/${resumeFile}`, label: t.nav.resume }
 
   return (
     <header className="header">
       <div className="container header__inner">
-        <a className="header__logo" href="#top">
+        <Link className="header__logo" to="/" onClick={() => setIsMenuOpen(false)}>
           KF<span aria-hidden="true"></span>
-        </a>
+        </Link>
 
         <nav
           className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`}
           aria-label={t.nav.about}
         >
           {links.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              download={link.download || undefined}
-              onClick={() => setIsMenuOpen(false)}
-            >
+            <Link key={link.href} to={link.href} onClick={() => setIsMenuOpen(false)}>
               {link.label}
-            </a>
+            </Link>
           ))}
+          <a href={resumeLink.href} download onClick={() => setIsMenuOpen(false)}>
+            {resumeLink.label}
+          </a>
         </nav>
 
         <div className="header__actions">
