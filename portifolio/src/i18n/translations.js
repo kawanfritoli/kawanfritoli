@@ -5,6 +5,7 @@ export const translations = {
       projects: 'Projetos',
       experience: 'Experiência',
       contact: 'Contato',
+      resume: 'Baixar currículo',
     },
     a11y: {
       menu: 'Abrir menu',
@@ -14,7 +15,7 @@ export const translations = {
     hero: {
       role: 'Desenvolvedor de Software',
       headline: 'Kawan Fritoli',
-      subtitle: 'Desenvolvedor de software e torcedor do Corinthians nos tempos livres, moro em São Paulo e estou iniciando minha carreira em tecnologia como estagiário na Semantix',
+      subtitle: 'Atualmente desenvolvendo soluções de software na Semantix',
       cta: 'Sobre mim',
       ctaSecondary: 'Entrar em contato',
     },
@@ -23,10 +24,9 @@ export const translations = {
       paragraphs: [
         'É muito difícil falar sobre si mesmo sem um olhar enviesado, ou sentir receio de se expor demais. Por isso, decidi deixar que as pessoas próximas a mim dissessem quem é o Kawan Fritoli.',
         'Se tivessem que me resumir em uma única palavra, seria "calmo". Meus amigos me conhecem como uma pessoa tranquila, que faz as coisas no seu próprio tempo e não se deixa paralisar pelo medo de julgamentos. Embora eu não seja o mais extrovertido do grupo, sou bastante sociável e, com meu jeito bem-humorado, acabo assumindo um papel de "alívio cômico" entre os amigos.',
-        'Nas relações pessoais, prezo muito pela lealdade. Sou visto como alguém cuidadoso e verdadeiro. Fora da rotina de trabalho e estudos, gosto de aproveitar meu tempo livre com videogames, acompanhando esportes — especialmente como um corinthiano roxo — ou ouvindo música. Apesar de gostar muito de jogar, passo longe de ser excessivamente competitivo, afinal o importante não é vencer, mas a experiência.',
-        'Tenho um perfil mais cauteloso em relação a tomada de decisões. Posso ter meu próprio ritmo e preferir o que já conheço, mas sou determinado quando defino um objetivo. Essa mesma tranquilidade que me define na vida pessoal é a ferramenta que utilizo para manter o foco, buscar novos desafios e me impulsionar, aos poucos, para fora da minha zona de conforto.'
+        'Nas relações pessoais, prezo muito pela lealdade. Sou visto como alguém cuidadoso e verdadeiro. Fora da rotina de trabalho e estudos, gosto de aproveitar meu tempo livre com videogames, acompanhando esportes (especialmente como um corinthiano roxo) ou ouvindo música. Apesar de gostar muito de jogar, passo longe de ser excessivamente competitivo, afinal o importante não é vencer, mas a experiência.',
+        'Tenho um perfil cauteloso em relação a tomada de decisões. Possuo meu próprio ritmo, mas sou determinado quando defino um objetivo. Essa mesma tranquilidade que me define na vida pessoal é a ferramenta que utilizo para manter o foco, buscar novos desafios e me impulsionar, aos poucos, para fora da minha zona de conforto.'
       ],
-      // Para adicionar um novo curso, basta incluir outro objeto na lista "items".
       education: {
         title: 'Formação',
         items: [
@@ -112,7 +112,6 @@ export const translations = {
         'Gostou do meu trabalho? Estou disponível para contato através das redes abaixo:',
       emailLabel: 'E-mail',
       email: 'kfritoligomes@gmail.com',
-      resume: 'Baixar currículo',
       links: [
         { label: 'GitHub', href: 'https://github.com/kawanfritoli' },
         { label: 'LinkedIn', href: 'https://www.linkedin.com/in/kawan-fritoli/' },
@@ -129,6 +128,7 @@ export const translations = {
       projects: 'Projects',
       experience: 'Experience',
       contact: 'Contact',
+      resume: 'Download resume',
     },
     a11y: {
       menu: 'Open menu',
@@ -138,7 +138,7 @@ export const translations = {
     hero: {
       role: 'Software Developer',
       headline: 'Kawan Fritoli',
-      subtitle: 'Software developer and Corinthians fan in my spare time; I live in São Paulo and am starting my career in technology as an intern at Semantix.',
+      subtitle: 'Currently developing software solutions at Semantix',
       cta: 'About me',
       ctaSecondary: 'Get in touch',
     },
@@ -147,7 +147,7 @@ export const translations = {
       paragraphs: [
         'It is very hard to talk about yourself without a biased view, or without worrying about exposing too much. That is why I decided to let the people closest to me say who Kawan Fritoli is.',
         'If they had to sum me up in a single word, it would be "calm". My friends know me as a laid-back person who does things in his own time and does not let the fear of judgment hold him back. Although I am not the most outgoing one in the group, I am quite sociable and, with my good sense of humor, I end up playing the role of "comic relief" among my friends.',
-        'In personal relationships, I truly value loyalty. I am seen as someone caring and genuine. Outside of work and studies, I like to spend my free time playing video games, following sports — especially as a die-hard Corinthians fan — or listening to music. Even though I really enjoy gaming, I am far from being overly competitive; after all, what matters is not winning, but the experience.',
+        'In personal relationships, I truly value loyalty. I am seen as someone caring and genuine. Outside of work and studies, I like to spend my free time playing video games, following sports (especially as a die-hard Corinthians fan) or listening to music. Even though I really enjoy gaming, I am far from being overly competitive; after all, what matters is not winning, but the experience.',
         'I tend to be more cautious when it comes to making decisions. I may have my own pace and prefer what I already know, but I am determined once I set a goal. The same calmness that defines me in my personal life is the tool I use to stay focused, seek new challenges and push myself, little by little, out of my comfort zone.',
       ],
       // To add a new course, just include another object in the "items" list.
@@ -180,7 +180,7 @@ export const translations = {
           role: 'Development Intern',
           company: 'Semantix',
           description:
-            'I continue working on the full-stack development of MySeat, building interfaces, APIs, databases and ensuring quality assurance. After the operation was acquired by Semantix, I expanded my responsibilities into DevOps, also taking over the management and maintenance of the entire application infrastructure.',
+            "I am currently engaged in full-stack development for MySeat, working on interfaces, APIs, databases, and quality assurance. Following the acquisition of the operation by Semantix, I expanded my responsibilities into DevOps, taking on the management and maintenance of the application's entire infrastructure.",
           tags: ['Angular', 'NestJS', 'PostgreSQL', 'Git', 'Docker', 'Kubernetes', 'Azure'],
         },
         {
@@ -237,7 +237,6 @@ export const translations = {
         'Did you like my work? You can get in touch via the channels below:',
       emailLabel: 'Email',
       email: 'kfritoligomes@gmail.com',
-      resume: 'Download resume',
       links: [
         { label: 'GitHub', href: 'https://github.com/kawanfritoli' },
         { label: 'LinkedIn', href: 'https://www.linkedin.com/in/kawan-fritoli/' },

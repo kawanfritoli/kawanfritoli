@@ -7,7 +7,7 @@ export default function Hero() {
     <section id="top" className="hero">
       <div className="container hero__inner">
         <div className="hero__content">
-          <p className="eyebrow">{t.hero.role}</p>
+          {/* <p className="eyebrow">{t.hero.role}</p> */}
           <h1 className="hero__title">{t.hero.headline}</h1>
           <p className="hero__subtitle">{t.hero.subtitle}</p>
           <div className="hero__actions">

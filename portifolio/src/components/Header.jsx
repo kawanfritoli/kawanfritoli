@@ -4,6 +4,8 @@ import { useAppSettings } from '../context/AppSettingsContext.js'
 export default function Header() {
   const { t, theme, language, toggleTheme, toggleLanguage } = useAppSettings()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const resumeFile =
+    language === 'pt' ? 'curriculo-kawan-fritoli-pt.pdf' : 'curriculo-kawan-fritoli-en.pdf'
 
   useEffect(() => {
     const close = () => setIsMenuOpen(false)
@@ -16,6 +18,7 @@ export default function Header() {
     { href: '#about', label: t.nav.about },
     { href: '#experience', label: t.nav.experience },
     { href: '#contact', label: t.nav.contact },
+    { href: `/${resumeFile}`, label: t.nav.resume, download: true },
   ]
 
   return (
@@ -30,7 +33,12 @@ export default function Header() {
           aria-label={t.nav.about}
         >
           {links.map((link) => (
-            <a key={link.href} href={link.href} onClick={() => setIsMenuOpen(false)}>
+            <a
+              key={link.href}
+              href={link.href}
+              download={link.download || undefined}
+              onClick={() => setIsMenuOpen(false)}
+            >
               {link.label}
             </a>
           ))}
